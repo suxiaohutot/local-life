@@ -1,0 +1,59 @@
+/* pages/home/home.wxss */
+swiper{
+  height: 350rpx;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+}
+.grid-list{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #efefef;
+  border-left: 1rpx solid #efefef;
+}
+.grid-item{
+  width: 33.3%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  /* 上下 左右 居中对齐 */
+  align-items: center;
+  justify-content: center;
+  /* 边框颜色 */
+  border-right: 1rpx solid #efefef;
+  border-bottom: 1rpx solid #efefef;
+  /* 盒子方向   改变边框不影响元素实际的 高 和 宽度 */
+  box-sizing: border-box;
+}
+.grid-item image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.grid-item text{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.btn-box{
+  display: flex;
+  /* padding: 20rpx 20rpx; */
+  justify-content: space-around;
+}
+.btn-sjtj{
+  margin: 20rpx;
+  padding: 35rpx;
+  width: 40%;
+  background: -webkit-linear-gradient(left,rgb(162, 229, 255),lightblue,pink);
+  color: white;
+  border-radius: 20rpx;
+  background: bg_red;
+}
+.btn-jy{
+  margin: 20rpx;
+  padding: 35rpx;
+  width: 40%;
+  background: -webkit-linear-gradient(left,pink,lightblue,rgb(162, 229, 255));
+  color: white;
+  border-radius: 20rpx;
+  background: bg_red;
+}
